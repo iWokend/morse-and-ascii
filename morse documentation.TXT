@@ -1,0 +1,6 @@
+So this program was meant to be able to turn ascii characters into morse code , which works perfectly.It does this with the use of a switch statemnt.The ascii to morse takes in strings which is then split into char types.Each char is looked up using the switch statement and then returns it as morse code in string form.Each time an ascii is turned to morse the return statements appends each string together.
+
+
+However my decoded was not a success , it did work , however you can only input one morse code at a time and that isn't really efficient in time.The decoder uses a map , to look up the ascii characters and their appropriate morse code.It then uses a  ranged based for loop to copy the look up table into the buffer.And if your string of morse is equal to  the Key it will return the value.
+
+Overall i did try my best to make it take in a bunch of morse code at a time ,but i couldn;t figure out a way to seperate the morse so that they can be read by the compiler.
